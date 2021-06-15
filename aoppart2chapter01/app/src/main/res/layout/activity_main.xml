@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/custom_balck"
+        android:textSize="30sp"
+        android:text="@string/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/heightEditTest"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <TextView
+        android:textColor="@color/custom_balck"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight" />
+
+    <EditText
+        android:id="@+id/weightEditTest"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check"
+        android:textSize="30sp"/>
+
+</LinearLayout>
