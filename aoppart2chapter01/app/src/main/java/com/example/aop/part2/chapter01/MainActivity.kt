@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"빈 값을 입력했습니다",Toast.LENGTH_LONG).show();
 
                 return@setOnClickListener
-            }  
+            }
             //이 아래로는 빈값이 절대 없다.
             val height:Int = heightEditTest.text.toString().toInt()
             val weight:Int = weightEditTest.text.toString().toInt()
