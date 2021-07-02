@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     }
     private val numberPicker : NumberPicker by lazy{
         findViewById<NumberPicker>(R.id.numberPicker)
-        //c
+        //c12
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
