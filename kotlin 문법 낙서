@@ -22,3 +22,10 @@ var person = Person().apply{
 }
 Person person = new Person();
 this.firstName = "fast"
+
+//Let 함수
+null 값일때 유용하게 사용
+
+개발자 옵션 설정
+빌드 4번
+
